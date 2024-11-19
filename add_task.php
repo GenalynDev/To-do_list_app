@@ -1,6 +1,6 @@
 <?php
 include 'db.php';
-
+//added add functionality
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $task = $_POST['task'];
     $sql = "INSERT INTO tasks (task) VALUES ('$task')";
