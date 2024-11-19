@@ -15,7 +15,7 @@ if(!mysqli_query($conn, $sql)){
     die("");
     $conn->close();
 }
-
+//insert data
 $conn->select_db($dbname);
 
 //create Table
