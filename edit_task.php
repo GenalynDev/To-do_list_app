@@ -1,6 +1,6 @@
 <?php
 include 'db.php';
-
+//query for editing tasks
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $result = $conn->query("SELECT * FROM tasks WHERE id=$id");
